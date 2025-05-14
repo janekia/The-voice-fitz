@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>Elegance - Creative HTML5 Template</title>
+    <title>The Voice Fitz</title>
 <!--
 Elegance Template
 https://templatemo.com/tm-528-elegance
@@ -29,6 +29,7 @@ https://templatemo.com/tm-528-elegance
 
     <link rel="stylesheet" href="css/responsive.css">
 
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -52,9 +53,10 @@ https://templatemo.com/tm-528-elegance
         <header id="header">
             <div class="container-fluid">
                 <div class="navbar">
-                    <a href="#" id="logo" title="Elegance by TemplateMo">
+                    <a href="#" id="logo" title="The Voice Fitz">
                         The Voice Fitz
                     </a>
+                    <!--Navbar-->
                     <div class="navigation-row">
                         <nav id="navigation">
                             <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
@@ -68,6 +70,7 @@ https://templatemo.com/tm-528-elegance
                                     <li data-menuanchor="slide06"><a href="#slide06">My Audio</a></li>
                                     <li data-menuanchor="slide07"><a href="#slide07">Testimonials</a></li>
                                     <li data-menuanchor="slide08"><a href="#slide08">Contact Me</a></li>
+                                </ul>
                             </div>
                         </nav>
                     </div>
@@ -92,26 +95,30 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
 
 
 </p>
-                        <div class="scroll-down next-section animate data-animate="fadeInUp><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
+                        <div class="scroll-down next-section animate" data-animate="fadeInUp"><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
                     </div>
                 </div>
             </div>
-<!--About me / slide 02-->
+<!--About me - who Am I?/ slide 02-->
             <div class="section animated-row" data-section="slide02">
                 <div class="section-inner">
                     <div class="about-section">
                         <div class="row justify-content-center">
                             <div class="col-lg-8 wide-col-laptop">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                                <span>About Me</span>
-                                                <h2>Who am i?</h2>
-                                                <p><b>"I am who I’ve always aspired to be — an artist at heart, using my voice to connect with people through emotion and meaning. Voice acting has always been my passion, ever since it expanded my world growing up. Whether through humor or raw emotional depth, it gave me new perspectives and helped me see beyond my own experience. Now, I strive to give that same feeling to others through my work."</b>
-
-</p>
-                                            </div>
+    <!-- Left Column: Text -->
+    <div class="col-md-6">
+        <div class="about-contentbox">
+            <div class="animate" data-animate="fadeInUp">
+                <span>About Me</span>
+                <h2>Who am I?</h2>
+                <p><b>"I am who I’ve always aspired to be — an artist at heart, using my voice to connect with people through emotion and meaning. Voice acting has always been my passion, ever since it expanded my world growing up. Whether through humor or raw emotional depth, it gave me new perspectives and helped me see beyond my own experience. Now, I strive to give that same feeling to others through my work."</b></p>
+             <!-- Delete these divs to put it back to it orginal structure -->
+            </div>
+        </div>
+    </div>
+     <!-- the owl carosel that shows the accomplishments -->
+                                            <!--</div>
                                             <div class="facts-list owl-carousel">
                                                 <div class="item animate" data-animate="fadeInUp">
                                                     <div class="counter-box">
@@ -140,9 +147,9 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="col-md-6">
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="images/profile-girl.jpg" class="rounded" alt=""></figure>
+                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="assets/fitz-peace_sign.jpg" class="rounded" alt=""></figure>
                                     </div>
                                 </div>
                             </div>
@@ -161,28 +168,44 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                             </div>
                             <div class="services-section">
                                 <div class="services-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-                                            <h3>Bootstrap Themes</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
+                                   <!-- Character/Animation -->
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+                                                <h3>Character/Animation Voice Work</h3>
+                                                <ul>
+                                                    <li>Animated series, films, or shorts</li>
+                                                    <li>Video games (characters, in-game narration)</li>
+                                                    <li>Mobile apps or interactive stories</li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
-                                            <h3>HTML5 Coding</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
-                                            <h3>Fully Responsive</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
+                                            <!-- Commercial Voiceovers -->
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="service-box">
+                                                        <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
+                                                        <h3>Commercial Voiceovers</h3>
+                                                        <ul>
+                                                            <li>TV, radio, and online ads</li>
+                                                            <li>Social media video ads</li>
+                                                            <li>Product promotions and brand video</li>
+                                                        </ul>
+                                                    </div> 
+                                                </div>
+                                     <!-- Narration -->
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="service-box">
+                                                        <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                                                        <h3>Narration</h3>
+                                                        <ul>
+                                                            <li>Documentaries</li>
+                                                            <li>Educational videos</li>
+                                                            <li>Corporate training or explainer videos</li>
+                                                            <li>Audiobooks</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                  <!--  <div class="item animate" data-animate="fadeInUp">
                                         <div class="service-box">
                                             <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
                                             <h3>Mobile Ready</h3>
@@ -216,7 +239,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                             <h3>Always Monitoring</h3>
                                             <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -230,39 +253,46 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                         <div class="col-md-7 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
                                 <span>My Skills</span>
-                                <h2>What i’m good?</h2>
+                                <h2>What I Bring to the Table</h2>
                             </div>
                             <div class="skills-row animate" data-animate="fadeInDown">
                                 <div class="row">
                                     <div class="col-md-8 offset-md-2">   
                                         <div class="skill-item">
-                                            <h6>HTML CSS</h6>
+                                            <h6>Vocal Range</h6>
                                             <div class="skill-bar">
                                                 <span>70%</span>
                                                 <div class="filled-bar"></div>
                                             </div>          
                                         </div>
                                         <div class="skill-item">
-                                            <h6>PSD Design</h6>
+                                            <h6>Character Versatility</h6>
                                             <div class="skill-bar">
                                                 <span>90%</span>
                                                 <div class="filled-bar-2"></div>
                                             </div>          
                                         </div>
                                         <div class="skill-item">
-                                            <h6>Social Media</h6>
+                                            <h6>Pronunciation & Enunciation</h6>
                                             <div class="skill-bar">
                                                 <span>70%</span>
                                                 <div class="filled-bar"></div>
                                             </div>          
                                         </div>
                                         <div class="skill-item last-skill">
-                                            <h6>Leadership</h6>
+                                            <h6> Emotional Range</h6>
                                             <div class="skill-bar">
                                                 <span>90%</span>
                                                 <div class="filled-bar-2"></div>
                                             </div>          
-                                        </div>                   
+                                        </div>  
+                                        <div class="skill-item last-skill">
+                                            <h6> Turnaround Speed</h6>
+                                            <div class="skill-bar">
+                                                <span>90%</span>
+                                                <div class="filled-bar-2"></div>
+                                            </div>          
+                                        </div>                     
                                     </div>
                                 </div>
                             </div>
@@ -284,7 +314,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
+                                                <img src="assets/fitz_reflecting.jpg" alt="Fitz reflicting">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -295,7 +325,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
+                                               <img src="assets/fitz-gold-glasses.jpg" alt="Fitz With gold glasses">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -306,7 +336,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
+                                                <img src="assets/fitz_run.jpg" alt="fitz on a run">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -317,7 +347,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
+                                                <img src="assets/fitz_reflecting.jpg" alt="Fitz reflicting">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -328,7 +358,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
+                                                <img src="assets/fitz-gold-glasses.jpg" alt="Fitz With gold glasses">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -339,7 +369,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
+                                                <img src="assets/fitz_run.jpg" alt="fitz on a run">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -350,7 +380,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
+                                                <img src="assets/fitz_reflecting.jpg" alt="Fitz reflicting">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -361,7 +391,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
+                                                <img src="assets/fitz-gold-glasses.jpg" alt="Fitz With gold glasses">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -372,7 +402,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
                                             <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
+                                                <img src="assets/fitz_run.jpg" alt="fitz on a run">
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>templatemo is the best</h4>
@@ -512,7 +542,7 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
                                         </div>
                                     </div>
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
-                                       <form id="ajax-contact" method="POST" action="https://formsubmit.co/janekia.pinkard@gmail.com">
+                                       <form id="ajax-contact" method="POST" action="https://formsubmit.co/LfeFtzart@gmail.com">
                                             <div class="input-field">
                                                 <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
                                             </div>
@@ -546,22 +576,19 @@ Originally from the heart of Brooklyn, now based in Charlotte, NC, Fitz brings a
         </div>
     </div>  
 
-    <script src="js/jquery.js"></script>
+     <!-- Core Libraries -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-    <script src="js/bootstrap.min.js"></script>
+  <!-- Plugins -->
+  <script src="js/fullpage.min.js"></script>
+  <script src="js/scrolloverflow.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.inview.min.js"></script>
 
-    <script src="js/fullpage.min.js"></script>
-
-    <script src="js/scrolloverflow.js"></script>
-
-    <script src="js/owl.carousel.min.js"></script>
-
-    <script src="js/jquery.inview.min.js"></script>
-
-    <script src="js/form.js"></script>
-
-    <script src="js/custom.js"></script>
-
+  <!-- Custom Scripts -->
+  <script src="js/form.js"></script>
+  <script src="js/custom.js"></script>
 
   </body>
 </html>
