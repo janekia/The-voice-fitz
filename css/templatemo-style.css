@@ -631,6 +631,9 @@ a#logo {
   border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  flex: 1 1 30%;
+  /* Adjust based on how many items per row */
+  display: flex;
 }
 
 .service-icon {
@@ -641,8 +644,9 @@ a#logo {
 
 .service-box {
   font-size: 15px;
-  padding: 40px 20px;
+  padding: 20px;
   height: 100%;
+  flex-grow: 1;
 }
 
 .services-list .item:hover {
@@ -663,19 +667,7 @@ a#logo {
 }
 
 .service-box ul {
-  padding-left: 20px;
-  /* Adjust spacing before bullets */
-  margin: 0;
-  list-style-position: outside;
-}
-
-.service-box li {
-  margin-bottom: 6px;
-  /* Adds space between list items */
-  text-indent: 0;
-}
-
-.service-box ul {
+  list-style: none;
   padding-left: 20px;
   /* Adjust spacing before bullets */
   margin: 0;
@@ -716,6 +708,12 @@ a#logo {
 
 .owl-carousel .owl-dots .owl-dot.active {
   background: #fff
+}
+
+.owl-carousel .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*==============================================
