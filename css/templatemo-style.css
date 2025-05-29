@@ -131,10 +131,14 @@ figure {
 
 video {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: scale(0.95); /* Shrinks it just a little */
+  z-index: -1;
+  opacity: 0.5; /* Optional fade effect */
 }
 #video:after {
   content: '';
@@ -862,4 +866,7 @@ textarea.form-control {
     font-style: italic;
     color: #ccc; /* or your site’s secondary text color */
     margin-top: 0.5rem;
+}
+.preserve {
+  white-space: pre-wrap;
 }
