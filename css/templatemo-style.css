@@ -1000,7 +1000,8 @@ textarea.form-control {
   font-weight: 700;
   color: #fff;
   text-align: right;
-  margin-bottom: -10px;
+  /*margin-bottom: -10px;*/
+  margin-bottom: 10px; /* ← Changed from -10px to 10px */
 }
 
 .skill-bar {
