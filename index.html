@@ -328,7 +328,7 @@ https://templatemo.com/tm-528-elegance
                             <source src=/audio/Venom_and_Eddie_Fitzroy_Joseph_Demo.mp3 type="audio/mp3">
                             Your browser does not support the audio element.
                         </audio>
-                        <p>Venom &amp; Eddie - Spoiderman</p>
+                        <p>Venom &amp; Eddie - Spiderman</p>
                         <!-- Example Audio File 5 -->
                         <audio controls>
                             <source src=/audio/AudreyII_LittleShopofHorrors_Demo_FitzroyJoseph.m4a type="audio/mp4">
@@ -337,23 +337,23 @@ https://templatemo.com/tm-528-elegance
                         <p>Little shop of Horrors - AudreyII</p>
 
                         <!-- Example Audio File 6 -->
-                        <audio controls>
+                       <!-- <audio controls>
                             <source src=/audio/CourageTheCowardlyDog_Demo_FitzroyJoseph.m4a type="audio/mp4">
                             Your browser does not support the audio element.
-                        </audio>
-                        <p>Courage the Cowardly Dog - Courage the Cowardly Dog</p>
+                        </audio>-->
+                       <!-- <p>Courage the Cowardly Dog - Courage the Cowardly Dog</p>-->
                         <!-- Example Audio File 7 -->
-                        <audio controls>
-                            <source src=/audio/Jigsaw_SawFranchise_Demo_FitzroyJoseph.m4a type="audio/mp4">
+                        <!--<audio controls>-->
+                           <!-- <source src=/audio/Jigsaw_SawFranchise_Demo_FitzroyJoseph.m4a type="audio/mp4">
                             Your browser does not support the audio element.
-                        </audio>
-                        <p>Saw- Jigsaw</p>
+                        </audio>-->
+                       <!-- <p>Saw- Jigsaw</p>-->
                         <!-- Example Audio File 8 -->
-                        <audio controls>
+                         <!--<audio controls>
                             <source src=/audio/Venom_Spiderman_Demo_FitzroyJoseph.m4a type="audio/mp4">
                             Your browser does not support the audio element.
-                        </audio>
-                        <p>Spiderman 2 video game - Venom</p>
+                        </audio>-->
+                        <!-- <p>Spiderman 2 video game - Venom</p>-->
 
 
                     </div>
@@ -384,24 +384,32 @@ https://templatemo.com/tm-528-elegance
 
             <div class="col-md-6 animate" data-animate="fadeInUp">
               <!-- ✅ 100% FormSubmit-compatible -->
-              <form action="https://formsubmit.co/LfeFtzart@gmail.com" method="POST" id="contactForm">
-                <!-- Hidden fields -->
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://thevoicefitz.com/thankyou.html">
+              <form 
+                name="contact"
+                method="POST"
+                netlify
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                id="contactForm"
+              >
+                <!-- Required for Netlify detection -->
+                <input type="hidden" name="form-name" value="contact">
+
+                <!-- Honeypot field -->
+                <p class="d-none">
+                  <label>Don’t fill this out: <input name="bot-field"></label>
+                </p>
 
                 <div class="form-floating mb-3">
                   <input class="form-control" id="name" name="name" type="text" placeholder="Your Name" required>
-                  <label for="name">Your Name</label>
+                  
                 </div>
 
                 <div class="form-floating mb-3">
                   <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email Address" required>
-                  <label for="emailAddress">Email Address</label>
                 </div>
-
                 <div class="form-floating mb-3">
                   <textarea class="form-control" id="message" name="message" placeholder="Your Message" style="height: 10rem;" required></textarea>
-                  <label for="message">Your Message</label>
                 </div>
 
                 <div class="d-grid">
