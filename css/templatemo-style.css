@@ -1049,3 +1049,17 @@ textarea.form-control {
 .preserve {
   white-space: pre-wrap;
 }
+.skills-list {
+  list-style: none;      /* 🔥 removes dots */
+  padding-left: 0;       /* removes left indent */
+  margin: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;   /* keeps spacing nice */
+}
+
+.skills-list li i {
+  margin-right: 8px;
+  color: #fff; /* or your accent color */
+}
