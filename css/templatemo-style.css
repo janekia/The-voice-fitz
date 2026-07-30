@@ -374,7 +374,33 @@ a#logo {
 }
 
 .navbar {
+  width: 100%;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-row {
+  margin-left: auto;
+}
+
+.navigation-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.navbar-nav li {
+  margin-left: 20px;
+}
+
+.navbar-nav li:first-child {
+  margin-left: 0;
+}
+
+.navbar-nav li a {
+  white-space: nowrap;
 }
 
 .navbar-toggle {
@@ -387,9 +413,7 @@ a#logo {
   flex-direction: row;
 }
 
-.navbar-nav li {
-  margin-left: 30px;
-}
+
 
 .navbar-nav li a {
   color: #fff;
@@ -1062,4 +1086,81 @@ textarea.form-control {
 .skills-list li i {
   margin-right: 8px;
   color: #fff; /* or your accent color */
+}
+
+/*=============================
+VOICE CREDITS
+=============================*/
+
+.voice-credit-card {
+    background: rgba(255,255,255,.10);
+    border-radius: 15px;
+    padding: 35px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.voice-credit-card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.35);
+}
+
+.voice-credit-card h3 {
+    margin-bottom: 15px;
+}
+
+.voice-credit-card h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.voice-credit-card ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.voice-credit-card li {
+    margin-bottom: 6px;
+}
+
+.voice-credit-card .btn {
+    margin-top: 20px;
+}
+
+.book-cover-link {
+  display: block;
+  border-radius: 10px;
+}
+
+.book-cover-link img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-cover-link:hover img,
+.book-cover-link:focus img {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+}
+
+.book-cover-link:focus {
+  outline: 2px solid #fff;
+  outline-offset: 5px;
+}
+
+.credit-badge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
